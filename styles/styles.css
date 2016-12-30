@@ -42,13 +42,13 @@ nav {
 
 .heading {
   height: 30px;
-  background-color: #d2d2d2;
+  background-color: #ddd;
   border-left: 5px solid #ccc;
 }
 
 .sub-heading {
   height: 30px;
-  background-color: #e9e9e9;
+  background-color: #f1f1f1;
  border-left: 5px solid #ccc;
 }
 
@@ -82,4 +82,16 @@ aside {
 */
 article {
   overflow: hidden;
+}
+
+.paragraph-heading {
+  padding-top: 50px;
+  height: 85px;
+  background-color: #888;
+}
+
+.paragraph {
+  padding-top: 50px;
+  height: 400px;
+  background-color: #aaa;
 }
