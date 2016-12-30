@@ -1,3 +1,30 @@
-span {
-  color: blue;
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+ *****************************************
+ * Section Header =header
+ *****************************************
+*/
+
+body {
+  min-width: 1220px;
+}
+
+header {
+  height: 80px;
+  background-color: #e9e9e9;
+}
+
+#logo {
+  height: 80px;
+  width: 182px;
+  background-color: #fff;
+}
+
+#logo img {
+  padding: 20px 0;
 }
